@@ -5,7 +5,7 @@ export async function POST(req: Request) {
   const res = await req.json()
   try {
     await sendMail(
-      'Rostelecom',
+      'Your Style',
       res.email,
       `Ваши данные для входа - пароль: ${res.password}, логин: ${res.email}`
     )

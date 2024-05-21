@@ -23,7 +23,6 @@ import { addProductToCartBySizeTable } from '@/lib/utils/cart'
 import { setIsAddToFavorites } from '@/context/favorites'
 import { useFavoritesAction } from '@/hooks/useFavoritesAction'
 import styles from '@/styles/product-list-item/index.module.scss'
-import stylesForAd from '@/styles/ad/index.module.scss'
 import { useComparisonAction } from '@/hooks/useComparisonAction'
 
 const ProductsListItem = ({ item, title }: IProductsListItemProps) => {
@@ -64,9 +63,6 @@ const ProductsListItem = ({ item, title }: IProductsListItemProps) => {
             href={`/catalog/${item.category}/${item._id}`}
             className={styles.list__item_ad__inner}
           >
-            <span className={`${stylesForAd.ad} ${styles.list__item_ad__ad}`}>
-              {translations[lang].common.ad}
-            </span>
             <ProductSubtitle
               subtitleClassName={styles.list__item_ad__subtitle}
               subtitleRectClassName={styles.list__item_ad__subtitle__rect}

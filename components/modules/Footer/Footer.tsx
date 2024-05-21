@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Logo from '@/components/elements/Logo/Logo'
 import { useLang } from '@/hooks/useLang'
 import { useMediaQuery } from '@/hooks/useMediaQuery'
@@ -19,10 +18,10 @@ const Footer = () => {
           </div>
           <div className='footer__contacts'>
             <span>
-              <a href='tel:+74999998283'>+7 (499) 999-82-83</a>
+              <a href='tel:+74999998283'>+7 (999) 999-99-99</a>
             </span>
             <span>
-              <a href='mailto:rostelecom.merc@rt.ru'>rostelecom.merc@rt.ru</a>
+              <a href='mailto:yourstyle.merc@rt.ru'>yourstyle.merc@rt.ru</a>
             </span>
             {isMedia950 && <FooterLinks />}
           </div>
@@ -52,19 +51,12 @@ const Footer = () => {
       <div className='footer__bottom'>
         <div className='container footer__bottom__container'>
           <div className='footer__copyright'>
-            © 2023 ПАО {translations[lang].footer.copyright}
+            © 2024 Бойко ДА <br />
+            {translations[lang].footer.copyright}
             <br />
-            (18+)
           </div>
           <div className='footer__policy'>
-            <div className='footer__policy__inner'>
-              <Link href='/personal-data-policy'>
-                {translations[lang].footer.policy}
-              </Link>
-              <Link href='/privacy-policy'>
-                {translations[lang].footer.privacy}
-              </Link>
-            </div>
+            <div className='footer__policy__inner' />
             {isMedia640 && (
               <FooterMobileLink text={translations[lang].footer.full_version} />
             )}

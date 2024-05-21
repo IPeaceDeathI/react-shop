@@ -9,7 +9,7 @@ const CookieAlert = ({
   const { lang, translations } = useLang()
 
   const handleAcceptCookie = () => {
-    document.cookie = 'CookieBy=Rostelecom; max-age=' + 60 * 60 * 24 * 30
+    document.cookie = 'CookieBy=YourStyle; max-age=' + 60 * 60 * 24 * 30
 
     if (document.cookie) {
       setCookieAlertOpen(false)

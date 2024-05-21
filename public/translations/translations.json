@@ -18,9 +18,8 @@
       "nothing_is_found": "Nothing is found...",
       "close": "Close",
       "loading": "Loading...",
-      "ad": "Ad",
       "accept": "Accept",
-      "cookie_text": "Rostelecom processes <a href=\"https://support.google.com/accounts/answer/61416\">Cookies</a> for the correct operation of the site and personalization of services, incl. using metric programs and analytics systems. You can prevent the processing of <a href=\"https://support.google.com/accounts/answer/61416\">Cookies</a> in your browser settings.",
+      "cookie_text": "YourStyle processes <a href=\"https://support.google.com/accounts/answer/61416\">Cookies</a> for the correct operation of the site and personalization of services, incl. using metric programs and analytics systems. You can prevent the processing of <a href=\"https://support.google.com/accounts/answer/61416\">Cookies</a> in your browser settings.",
       "not_found_title": "Looks like someone stole the page!",
       "ops": "Oops...",
       "not_found_subtitle": "Our <a href=\"https://support.google.com/accounts/answer/61416\">secret service</a> is already investigating",
@@ -83,15 +82,15 @@
       "collection_products": "Products by Collection"
     },
     "footer": {
-      "copyright": "«Rostelecom» All rights reserved",
+      "copyright": "All rights reserved",
       "policy": "Data processing policy",
       "privacy": "Privacy policy",
       "mobile_version": "Mobile version",
       "full_version": "Full version of the site"
     },
     "main_page": {
-      "hero_hidden_title": "Clothing store Rostelecom",
-      "hero_title": "Rostelecom",
+      "hero_hidden_title": "Clothing store Your Style",
+      "hero_title": "Your Style",
       "hero_description": "Be in style",
       "hero_subtitle": "with the new “Line” collection",
       "catalog_btn": "Catalog",
@@ -261,9 +260,8 @@
       "nothing_is_found": "Ничего не нашлось...",
       "close": "Закрыть",
       "loading": "Загрузка...",
-      "ad": "Реклама",
       "accept": "Принять",
-      "cookie_text": "ПАО «Ростелеком» обрабатывает <a href=\"https://support.google.com/accounts/answer/61416\">Cookies</a> для корректной работы сайта и персонализации сервисов, в т.ч. с использованием метрических программ и систем аналитик. Вы можете запретить обработку <a href=\"https://support.google.com/accounts/answer/61416\">Cookies</a> в настройках браузера.",
+      "cookie_text": "ПАО «Your Style» обрабатывает <a href=\"https://support.google.com/accounts/answer/61416\">Cookies</a> для корректной работы сайта и персонализации сервисов, в т.ч. с использованием метрических программ и систем аналитик. Вы можете запретить обработку <a href=\"https://support.google.com/accounts/answer/61416\">Cookies</a> в настройках браузера.",
       "not_found_title": "Кажется кто то украл страницу!",
       "ops": "Упс...",
       "not_found_subtitle": "Наша <a href=\"/\">секретная служба</a> уже ведет расследование",
@@ -326,15 +324,15 @@
       "collection_products": "Товары по коллекции"
     },
     "footer": {
-      "copyright": "«Ростелеком» Все права защищены",
+      "copyright": "Все права защищены",
       "policy": "Политика обработки данных",
       "privacy": "Политика конфиденциальности",
       "mobile_version": "Мобильная версия",
       "full_version": "Полная версия сайта"
     },
     "main_page": {
-      "hero_hidden_title": "Магазин одежды Ростелеком",
-      "hero_title": "Ростелеком",
+      "hero_hidden_title": "Магазин одежды Your Style",
+      "hero_title": "Your style",
       "hero_description": "Будь на стиле",
       "hero_subtitle": "с новой коллекцией «Line»",
       "catalog_btn": "Каталог",

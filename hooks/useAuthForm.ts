@@ -34,7 +34,7 @@ export const useAuthForm = (
 
   const handleSignupWithOAuth = () =>
     connectWithPopup({
-      accessId: `${process.env.NEXT_PUBLIC_OAUTH_ACCESS_ID}`,
+      access_id: `${process.env.NEXT_PUBLIC_OAUTH_ACCESS_ID}`,
     })
 
   return {
